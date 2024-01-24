@@ -40,7 +40,7 @@ public class PigLatin {
     }
 public int findqu(String sWord)
 	{
-	if(sWord.substring(0,2).equals(qu))
+	if(sWord.substring(0,2).equals("qu"))
 	{
 	return 1;
 	}
@@ -56,7 +56,7 @@ public int findqu(String sWord)
 	    if(findFirstVowel(sWord) == -1) {
 		    return sWord + "ay";
 	    }
-	    else if(FindFirstVowel(sWord)==0)
+	    else if(findFirstVowel(sWord)==0)
 	    {
 		return sWord+"away";
 	    }
