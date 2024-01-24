@@ -38,16 +38,32 @@ public class PigLatin {
   return -1;
         
     }
-
+public int findqu(String sWord)
+	{
+	if(sWord.substring(0,2).equals(qu))
+	{
+	return 1;
+	}
+	}
     public String pigLatin(String sWord) {
         //precondition: sWord is a valid String of length greater than 0
         //postcondition: returns the pig latin equivalent of sWord
         // more code should go here
+	      if(findqu(sWord)==1)
+	    {
+		return (sWord.substring(2,sWord.length())+"quay";
+	    }
 	    if(findFirstVowel(sWord) == -1) {
 		    return sWord + "ay";
 	    }
-	    else {
-		return "ERROR!";
+	    else if(FindFirstVowel(sWord)==0)
+	    {
+		return sWord+"away";
 	    }
+	    else 
+	    {
+		return(sWord.substring(1,substring.length())+sWord.substring(0,1)+"ay")
+	    }
+	  
     }
 }//end PigLatin class
