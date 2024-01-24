@@ -51,7 +51,7 @@ public int findqu(String sWord)
         // more code should go here
 	      if(findqu(sWord)==1)
 	    {
-		return (sWord.substring(2,sWord.length())+"quay";
+		return (sWord.substring(2,sWord.length())+"quay");
 	    }
 	    if(findFirstVowel(sWord) == -1) {
 		    return sWord + "ay";
