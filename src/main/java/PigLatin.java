@@ -62,7 +62,7 @@ public int findqu(String sWord)
 	    }
 	    else 
 	    {
-		return(sWord.substring(1,substring.length())+sWord.substring(0,1)+"ay")
+		return(sWord.substring(1,substring.length())+sWord.substring(0,1)+"ay");
 	    }
 	  
     }
