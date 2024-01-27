@@ -78,5 +78,5 @@ public int findqu(String sWord)
       
     return(sWord.substring(l,sWord.length())+sWord.substring(0,l)+"ay");
       }
-    
+}
     
