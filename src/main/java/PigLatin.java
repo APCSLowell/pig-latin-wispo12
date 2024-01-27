@@ -27,7 +27,7 @@ public class PigLatin {
 	        System.out.println(pigLatin(lines[i]));
 	    }
     }
-   public int findFirstVowel(String sWord) {
+  public int findFirstVowel(String sWord) {
          for(int i=0;i<sWord.length();i++)
   {
     if(sWord.substring(i,i+1).equals("a")||sWord.substring(i,i+1).equals("e")||sWord.substring(i,i+1).equals("i")||sWord.substring(i,i+1).equals("u")||sWord.substring(i,i+1).equals("o"))
@@ -36,9 +36,10 @@ public class PigLatin {
     }
   }
   return -1;
+	  
         
     }
-public int findqu(String sWord)
+	public int findqu(String sWord)
   {
   if(sWord.substring(0,2).equals("qu"))
   {
@@ -46,7 +47,8 @@ public int findqu(String sWord)
   }
   return 2;
   }
-    public String pigLatin(String sWord) {
+
+   public String pigLatin(String sWord) {
       boolean b = true;
         //precondition: sWord is a valid String of length greater than 0
         //postcondition: returns the pig latin equivalent of sWord
@@ -78,5 +80,5 @@ public int findqu(String sWord)
       
     return(sWord.substring(l,sWord.length())+sWord.substring(0,l)+"ay");
       }
-}
     
+}//end PigLatin class
