@@ -62,7 +62,7 @@ public class PigLatin {
       }
       else if(findFirstVowel(sWord)==0)
       {
-    return sWord+"away";
+    return sWord+"way";
       }
       int l=0;
       while(b==true)
